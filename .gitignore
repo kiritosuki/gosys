@@ -1,0 +1,109 @@
+# ---------------------------------------------------------------------
+# Go build / cache
+# ---------------------------------------------------------------------
+# Binaries
+sysgo
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Build directories
+bin/
+build/
+dist/
+
+# Go module & cache files
+*.out
+*.test
+*.coverprofile
+*.cov
+*.prof
+*.pprof
+*.trace
+cover/
+
+# Go workspace
+go.work
+go.work.sum
+
+
+# ---------------------------------------------------------------------
+# Logs / debug / temp files
+# ---------------------------------------------------------------------
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# ---------------------------------------------------------------------
+# OS / Editor junk
+# ---------------------------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Generic editor backups
+*.orig
+
+# Vim swap
+*.swp
+*.swo
+
+# VSCode
+.vscode/
+.history/
+.idea/
+
+# JetBrains IDE
+.idea/
+*.iml
+
+# ---------------------------------------------------------------------
+# Cobra generated completion scripts
+# (如果你未来生成 sysgo completion > sysgo.zsh)
+# ---------------------------------------------------------------------
+*.bash
+*.zsh
+*.fish
+
+
+# ---------------------------------------------------------------------
+# Dependency / Vendor (如果你使用 go mod vendor 才打开它)
+# ---------------------------------------------------------------------
+# vendor/
+
+
+# ---------------------------------------------------------------------
+# Docker-related
+# ---------------------------------------------------------------------
+# Docker build cache
+**/.dockerignore
+**/.env
+.env
+.env.*
+
+# Docker data
+data/
+volumes/
+mnt/
+tmp/
+
+# ---------------------------------------------------------------------
+# Tools / custom CLI
+# ---------------------------------------------------------------------
+# 如果未来使用 sysgo 产生临时文件夹
+.sysgo/
+
