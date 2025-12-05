@@ -11,4 +11,5 @@ var RootCmd = &cobra.Command{
 // init 用来初始化 RootCmd 配置
 func init() {
 	RootCmd.AddCommand(lsCmd)
+	RootCmd.AddCommand(cdCmd)
 }
